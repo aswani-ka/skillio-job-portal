@@ -112,4 +112,17 @@ http://localhost:3000
 
 📸 Screenshots
 
-Add screenshots of recruiter dashboard, job listings, job seeker dashboard, and profile pages.
+## 📸 Screenshots
+
+### 👨‍💼 Recruiter Dashboard
+![Recruiter Dashboard](screenshots/recruiter-dashboard.png)
+
+### 📄 Job Listings
+![Job Listings](screenshots/job-listings.png)
+
+### 👩‍💻 Job Seeker Dashboard
+![Job Seeker Dashboard](screenshots/jobseeker-dashboard.png)
+
+### 👤 Profile Page
+![Profile Page](screenshots/profile-page.png)
+
