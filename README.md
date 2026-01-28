@@ -91,9 +91,11 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 EMAIL_USER=your_email
 EMAIL_PASS=your_email_password
+```
 
+---
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 1️⃣ Clone the repository
 git clone https://github.com/your-username/skillio-job-portal.git
@@ -110,7 +112,7 @@ The application will be available at:
 
 http://localhost:3000
 
-📸 Screenshots
+---
 
 ## 📸 Screenshots
 
