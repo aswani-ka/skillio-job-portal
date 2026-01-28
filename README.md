@@ -55,84 +55,27 @@ Built using **Next.js, MongoDB, Node.js, and Tailwind CSS**, Skillio provides se
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-# Skillio – Job Portal Platform 🚀
-
-**Skillio** is a modern, full-stack **Job Portal web application** designed to connect skilled job seekers with recruiters efficiently.  
-Built using **Next.js, MongoDB, Node.js, and Tailwind CSS**, Skillio provides secure authentication, role-based dashboards, and a smooth hiring workflow.
-
----
-
-## 🌟 Key Features
-
-### 👨‍💼 Recruiter
-- Recruiter dashboard
-- Post, edit, and delete job listings
-- View and manage job applicants
-- Company profile management
-- Secure change password functionality
-
-### 👨‍🎓 Job Seeker
-- Job seeker dashboard
-- Browse and search jobs
-- Apply for jobs
-- Track application status (Pending / Shortlisted / Rejected)
-- Profile management (skills, resume, personal details)
-- Secure change password functionality
-
----
-
-## 🔐 Authentication & Security
-- JWT-based authentication
-- Role-based access control (Recruiter / Job Seeker)
-- Email verification
-- Forgot password & reset password
-- Password hashing using bcrypt
-- Protected routes & dashboards
-
----
-
-## 🛠 Tech Stack
-
-### Frontend
-- Next.js (App Router)
-- React
-- Tailwind CSS
-- Axios
-
-### Backend
-- Next.js API Routes
-- Node.js
-- MongoDB & Mongoose
-- JWT Authentication
-
-### Tools & Services
-- Cloudinary (resume & file uploads)
-- Nodemailer (email services)
-- Git & GitHub
-
----
-
-## 📂 Project Structure
-
+```text
 src/
 ├── app/
-│ ├── dashboard/
-│ │ ├── recruiter/
-│ │ └── jobseeker/
-│ ├── jobs/
-│ ├── login/
-│ ├── signup/
-│ ├── reset-password/
-│ └── verify-email/
+│   ├── dashboard/
+│   │   ├── recruiter/
+│   │   └── jobseeker/
+│   ├── jobs/
+│   ├── login/
+│   ├── signup/
+│   ├── reset-password/
+│   └── verify-email/
+│
 ├── components/
 ├── models/
 ├── helpers/
 ├── lib/
 ├── proxy/
 └── dbConfig/
-
+```
 
 ---
 
@@ -170,25 +113,3 @@ http://localhost:3000
 📸 Screenshots
 
 Add screenshots of recruiter dashboard, job listings, job seeker dashboard, and profile pages.
-
-📌 Future Enhancements
-
-Admin dashboard
-
-Job recommendations using AI
-
-Real-time notifications
-
-Resume parsing
-
-Company reviews & ratings
-
-👤 Author
-
-Aswani K A
-Full-Stack Developer (MERN & Next.js)
-Passionate about building scalable web applications
-
-⭐ Support
-
-If you like Skillio, please give this repository a ⭐ on GitHub — it really helps!
