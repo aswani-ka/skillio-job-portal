@@ -1,7 +1,15 @@
 # Skillio – Job Portal Platform 🚀
 
+### 🌐 Live Application:
+
+👉 https://skillio-job-portal.vercel.app
+
+## 📌 Overview
+
 **Skillio** is a modern, full-stack **Job Portal web application** designed to connect skilled job seekers with recruiters efficiently.  
 Built using **Next.js, MongoDB, Node.js, and Tailwind CSS**, Skillio provides secure authentication, role-based dashboards, and a smooth hiring workflow.
+
+This project demonstrates real-world application architecture, authentication flows, database design, and production deployment using **Vercel**.
 
 ---
 
@@ -86,9 +94,11 @@ Create a `.env` file in the root directory:
 ```env
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+
 EMAIL_USER=your_email
 EMAIL_PASS=your_email_password
 ```
@@ -98,21 +108,26 @@ EMAIL_PASS=your_email_password
 ## 🚀 Getting Started
 
 1️⃣ Clone the repository
-git clone https://github.com/your-username/skillio-job-portal.git
-cd skillio-job-portal
+
+    git clone https://github.com/your-username/skillio-job-portal.git
+    cd skillio-job-portal
 
 2️⃣ Install dependencies
-npm install
+
+    npm install
 
 3️⃣ Run the development server
-npm run dev
+
+    npm run dev
 
 
 The application will be available at:
 
-http://localhost:3000
+    http://localhost:3000
+
 
 ---
+
 
 ## 📸 Screenshots
 
@@ -127,4 +142,10 @@ http://localhost:3000
 
 ### 👤 Profile Page
 ![Profile Page](screenshots/profile-page.png)
+
+---
+
+## ⭐ Acknowledgements
+
+Built with passion to demonstrate full-stack development, authentication, and production deployment using modern web technologies.
 
